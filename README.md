@@ -1,35 +1,35 @@
 # TopFreeProxies
 [![GitHub Workflow Status](https://github.com/fuserh/GoodFreeProxies/actions/workflows/get-proxies.yml/badge.svg)](https://github.com/fuserh/GoodFreeProxies/actions/workflows/get-proxies.yml) 
 
-![Watchers](https://img.shields.io/github/watchers/fuserh/GoodFreeProxies) ![Stars](https://img.shields.io/github/stars/fuserh/GoodFreeProxies) ![Forks](https://img.shields.io/github/forks/fuserh/GoodFreeProxies) ![Vistors](https://visitor-badge.laobi.icu/badge?page_id=fuserh.GoodFreeProxies) ![LICENSE](https://img.shields.io/badge/license-CC%20BY--SA%204.0-green.svg)
+![Watchers](https://img.shields.io/github/watchers/fuserh/GoodFreeProxies) ![Stars](https://img.shields.io/github/stars/fuserh/GoodFreeProxies) ![Forks](https://img.shields.io/github/forks/fuserh/GoodFreeProxies) ![Vistors](https://visitor-badge.laobi.icu/badge?page_id=fuserh.GoodFreeProxies) 
 
 [仓库介绍](https://github.com/fuserh/GoodFreeProxies#仓库介绍) | [使用方法](https://github.com/fuserh/GoodFreeProxies#使用方法) | [节信息](https://github.com/fuserh/GoodFreeProxies#节信息) | [软件推荐](https://github.com/fuserh/GoodFreeProxies#客户端选择) | [推荐](https://github.com/fuserh/GoodFreeProxies#机场推荐) | [仓库声明](https://github.com/fuserh/GoodFreeProxies#仓库声明)
 
 ## 仓库介绍
 本仓库自动化功能全部基于 `GitHub Actions` 实现，如有需要可以自行 Fork 实现个性化需求，功能配置在 `./utils/config.ini` 配置文件中。
 
-对网络上各免费节点池及博主分享的节点进行测速筛选出较为稳定高速的节点，再导入到仓库中进行分享记录。所筛选的节点链接在仓库 `./sub/sub_list.json` 文件中，其中大部分为其他 `GitHub` 仓库链接，如果大家有好的订阅链接欢迎提交 PR ，这些链接包含的所有节点会合并在仓库 `./sub/sub_merge.txt` 中。
+对网络上各免费节池及博主分享的节进行测速筛选出较为稳定高速的节，再导入到仓库中进行分享记录。所筛选的节链接在仓库 `./sub/sub_list.json` 文件中，其中大部分为其他 `GitHub` 仓库链接，如果大家有好的订阅链接欢迎提交 PR ，这些链接包含的所有节会合并在仓库 `./sub/sub_merge.txt` 中。
 
-测速筛选后的节点订阅文件在仓库根目录 `Eterniy`(Base64) 和 `Eternity.yaml`(Clash)。同时在仓库的 `./update` 中保留了原始节点链接的的记录。
+测速筛选后的节订阅文件在仓库根目录 `Eterniy`(Base64) 和 `Eternity.yaml`(C)。同时在仓库的 `./update` 中保留了原始节链接的的记录。
 
-订转换使用 [subconverter](https://github.com/tindy2013/subconverter) 实现，测速功能使用 [LiteSpeedTest](https://github.com/xxf098/LiteSpeedTest) 在 `GitHub Actions` 环境下实现，所以美国节较多，不能很好代表国内网络环境下节点可用性，目前正在解决这一问题。
+订转换使用 [subconverter](https://github.com/tindy2013/subconverter) 实现，测速功能使用 [LiteSpeedTest](https://github.com/xxf098/LiteSpeedTest) 在 `GitHub Actions` 环境下实现，所以美国节较多，不能很好代表国内网络环境下节可用性，目前正在解决这一问题。
 
-虽然是测速筛选过后的节点，但仍然会出现部分节点不可用的情况，遇到这种情况建议选择`C`, `S`之类能自动切换低延迟节点的客户端。
+虽然是测速筛选过后的节，但仍然会出现部分节不可用的情况，遇到这种情况建议选择`C`, `S`之类能自动切换低延迟节的客户端。
 
 ## 使用方法
-将以下订阅链接导入相应客户端即可。链接中大部分为 SS 协议节点，少量 V , T ,S 协节，建议选择协议支持完整的客户端。
+将以下订阅链接导入相应客户端即可。链接中大部分为 SS 协议节，少量 V , T ,S 协节，建议选择协议支持完整的客户端。
 
 - [多协议Base64编码](https://raw.githubusercontent.com/fuserh/GoodFreeProxies/master/Eternity)
-- [Clash](https://raw.githubusercontent.com/fuserh/GoodFreeProxies/master/Eternity.yaml)
+- [C](https://raw.githubusercontent.com/fuserh/GoodFreeProxies/master/Eternity.yaml)
 
 >`C`链接所使用的配置在仓库`./update/provider/`中，有相应配置文件和以国家分类的`proxy-provider`。
 >
 
-## 节点信息
-### 高速节点
-高速节点数量: `93`
+## 节信息
+### 高速
+高速数量: `93`
 <details>
-  <summary>展开复制节点</summary>
+  <summary>展开复制</summary>
 
     vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7Ag6aaZ5rivXzAzMDQwMjgiLCJhZGQiOiIxOTguMjUyLjEwNy4yNDAiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiZWU3NmNlY2YtMTIxOS00MmJlLWFlM2YtNmI4MDc3ZTRjYWNjIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoi8J+Hr/Cfh7Ug5pel5pysXzAzMDQwMjIiLCJhZGQiOiIxMzguMi40NC4yMTEiLCJwb3J0IjoiMjAwODEiLCJ0eXBlIjoibm9uZSIsImlkIjoiNTkzYjg1MjUtMGM0OC00YjBmLWQ5YWYtMmQ3M2E5MTQ4OTczIiwiYWlkIjoiNjQiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
@@ -145,7 +145,7 @@
 - [yu-steven/openit](https://github.com/yu-steven/openit), 节数量: `1`
 - [Jsnzkpg/Jsnzkpg](https://github.com/Jsnzkpg/Jsnzkpg), 节数量: `23`
 - [ermaozi/get_subscribe](https://github.com/ermaozi/get_subscribe), 节数量: `36`
-- [gfwglass 节点池](https://gfwglass.tk), 节数量: `1`
+- [gfwglass 节池](https://gfwglass.tk), 节数量: `1`
 - [Meteor-1337/Meteor](https://github.com/Meteor-1337/Meteor), 节数量: `1`
 - [ronghuaxueleng/get_v2](https://github.com/ronghuaxueleng/get_v2), 节数量: `393`
 - [anaer/Sub](https://github.com/anaer/Sub), 节数量: `260`
@@ -160,7 +160,7 @@
 - [ClashNode](https://clashnode.com/f/freenode), 节数量: `50`
 
 ## 仓库声明
-订阅节点仅作学习交流使用，只是对网络上节点的优选排序，用于查找资料，学习知识，不做任何违法行为。所有资源均来自互联网，仅供大家交流学习使用，出现违法问题概不负责。
+订阅节仅作学习交流使用，只是对网络上节的优选排序，用于查找资料，学习知识，不做任何违法行为。所有资源均来自互联网，仅供大家交流学习使用，出现违法问题概不负责。
 
 ## 星标统计
 [![Star History Chart](https://api.star-history.com/svg?repos=fuserh/GoodFreeProxies&type=Date)](https://star-history.com/#fuserh/GoodFreeProxies&Date)
