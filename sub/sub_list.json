@@ -3,7 +3,7 @@
     "id": 0,
     "remarks": "pojiezhiyuanjun/freev2",
     "site": "https://github.com/pojiezhiyuanjun/freev2",
-    "url": "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0304.txt",
+    "url": "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0305.txt",
     "update_method": "change_date",
     "enabled": true
   },
@@ -358,7 +358,7 @@
     "url": "https://raw.githubusercontent.com/vpei/Free-Node-Merge/main/o/node.txt",
     "update_method": "auto",
     "enabled": true
-  }, 
+  },
   {
     "id": 45,
     "remarks": "nineKnight/FreeProxies",
@@ -366,7 +366,7 @@
     "url": "https://raw.githubusercontent.com/nineKnight/FreeProxies/master/sub/sub_merge_base64.txt",
     "update_method": "auto",
     "enabled": true
-  }, 
+  },
   {
     "id": 46,
     "remarks": "Ckomatsuo/TopFreeProxies",
@@ -375,5 +375,4 @@
     "update_method": "auto",
     "enabled": true
   }
-  
 ]
