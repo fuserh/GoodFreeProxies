@@ -326,5 +326,29 @@
     "url": "https://clashnode.com/wp-content/uploads/2023/03/20230304.txt",
     "update_method": "change_date",
     "enabled": true
-  }
+  },
+  {
+    "id": 41,
+    "remarks": "tolinkshare/freenode",
+    "site": "https://github.com/tolinkshare/freenode",
+    "url": "https://tolinkusersub.xyz/link/haqINXtVV35DvtFR?sub=3",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 42,
+    "remarks": "SANYIMOE/VPN-free",
+    "site": "https://github.com/SANYIMOE/VPN-free",
+    "url": "https://vpn-free.sn-m.xyz/conf/data.txt",
+    "update_method": "auto",
+    "enabled": true
+  }, 
+  {
+    "id": 43,
+    "remarks": "MakeFortuneQuietly/FreeProxyTor",
+    "site": "https://github.com/MakeFortuneQuietly/FreeProxyTor",
+    "url": "https://dushuxyz.ml/hyperlinks/freedom/vl-sub",
+    "update_method": "auto",
+    "enabled": true
+  }, 
 ]
