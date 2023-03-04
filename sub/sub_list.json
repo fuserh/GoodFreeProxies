@@ -366,5 +366,14 @@
     "url": "https://raw.githubusercontent.com/nineKnight/FreeProxies/master/sub/sub_merge_base64.txt",
     "update_method": "auto",
     "enabled": true
+  }, 
+  {
+    "id": 46,
+    "remarks": "Ckomatsuo/TopFreeProxies",
+    "site": "https://github.com/Ckomatsuo/TopFreeProxies",
+    "url": "https://raw.githubusercontent.com/Ckomatsuo/TopFreeProxies/main/sub/sub_merge_base64.txt",
+    "update_method": "auto",
+    "enabled": true
   }
+  
 ]
